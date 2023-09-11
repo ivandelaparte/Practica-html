@@ -2,7 +2,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 4rem;
+    margin-top: 4rem;
 }
 
 .features-wrapper {
@@ -20,7 +20,7 @@
 }
 
 .feature-text {
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .feature-image {

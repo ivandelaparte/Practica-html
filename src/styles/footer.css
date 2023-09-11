@@ -1,0 +1,67 @@
+footer {
+    margin-top: 3rem;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cheese {
+    position: absolute;
+    height: 100%;
+    bottom: -45px;
+    left: -45px;
+}
+
+.link-list > li {
+    padding: 0.3rem;
+}
+
+.link {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.link:visited {
+    color: var(--black-color);
+}
+
+.footer-circle {
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50% 50% 0 0;
+}
+
+.foot {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.copyright {
+    font-weight: bold;
+    z-index: 1;
+}
+
+.developer {
+    z-index: 1;
+}
