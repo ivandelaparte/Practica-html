@@ -3,8 +3,8 @@
     --black-color: #170102;
 }
 
-body {
-    overflow-x: hidden;
+main {
+    overflow: hidden;
     font-family: "Monserrat", sans-serif;
 }
 

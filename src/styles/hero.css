@@ -53,6 +53,8 @@
     width: fit-content;
     padding: 0.75em 1.5em;
     border-radius: 20px;
+    border: 1px solid var(--black-color);
+    font-size: 16px;
 }
 
 .left-floating {
